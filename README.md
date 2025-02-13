@@ -1,2 +1,2 @@
 # crud-master
-ateway, inventory, billing
+gateway, inventory, billing
