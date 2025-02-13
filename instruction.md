@@ -21,7 +21,6 @@ icacls "F:\V1" /deny  "*S-1-5-11:(DE,WD,AD,WEA,WA)"
 ```powershall
 & "F:\V1\VBoxManage.exe" --version
 ```
-Postman.exe
 ### 1.2 Install VMware Workstation [VMware](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion)
 ```powershall
 vctl.exe version
