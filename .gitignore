@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Uncomment the next line if you prefer not to commit package-lock.json
+# package-lock.json
+*.log
+
+# Build outputs
+dist/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Vagrant
+.vagrant/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Other temporary files
+tmp/
+temp/
