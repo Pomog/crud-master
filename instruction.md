@@ -1,6 +1,5 @@
 ## 1. Install the Required Software
-### Using Windows and PowerShall
-virtualbox
+### Using Windows and PowerShall and virtualbox
 ### 1.1 Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 ```powershell
 New-Item -ItemType Directory -Path "F:\V1"
@@ -70,6 +69,7 @@ This project is structured as follows:
 │           ├── controllers/
 │           ├── models/
 │           └── ...
+```
 
 PowerShell script creates the folders and empty files for project tree:
 ```powershell
