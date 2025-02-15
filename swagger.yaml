@@ -1,0 +1,46 @@
+openapi: 3.0.0
+info:
+  title: CRUD Master API Gateway
+  version: 1.0.0
+paths:
+  /api/movies:
+    get:
+      summary: Get all movies (proxied to Inventory)
+      responses:
+        '200':
+          description: A list of movies
+    post:
+      summary: Add a new movie
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                description:
+                  type: string
+      responses:
+        '200':
+          description: Movie added
+  /api/billing:
+    post:
+      summary: Enqueue a new billing order
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                user_id:
+                  type: string
+                number_of_items:
+                  type: string
+                total_amount:
+                  type: string
+      responses:
+        '200':
+          description: Order sent to billing queue
