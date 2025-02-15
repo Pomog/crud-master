@@ -9,3 +9,7 @@ vagrant up.
 vagrant ssh instructions for each VM.
 Starting/stopping services with pm2.
 ```
+```powershell
+vagrant up
+vagrant status
+```

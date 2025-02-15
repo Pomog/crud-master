@@ -121,7 +121,7 @@ npm install express sequelize pg pg-hstore
 ### 7. Develop the Billing API
 - Install amqplib (for RabbitMQ):
 ```powershell
-npm install express http-proxy-middleware amqplib
+npm install express sequelize pg pg-hstore amqplib
 ```
 - Set up Express in server.js
 
